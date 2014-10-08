@@ -20,7 +20,7 @@ To turn on the version control system, use:
 
 ``` bash
 cd my_work_folder
-git begin
+git init
 ```
 
 Tell Git about a new file
@@ -28,14 +28,14 @@ Tell Git about a new file
 
 ```
 vim my_file # Edit file
-git include my_file
+git add my_file
 ```
 
 Include changes in a file into the next work chunk 
 ==============================================
 
 ```
-git include my_file
+git add my_file
 ```
 
 This includes the changes to that file in a list of changes
