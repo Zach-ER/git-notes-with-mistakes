@@ -62,21 +62,21 @@ Add all changes *and* commit them
 git commit -a -m "Journal entry"
 ```
 
-View list of recent chunks
+View list of recent commits
 ==========================
 
 ```
 git journal
 ```
 
-Transmit chunks to remote chunkstore
+Transmit commits to remote repository
 ====================================
 
 ```
 git transmit
 ```
 
-Fetch commits from remote chunkstore
+Fetch commits from remote repository
 ===================================
 
 ```
