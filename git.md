@@ -66,19 +66,19 @@ View list of recent commits
 ==========================
 
 ```
-git journal
+git log
 ```
 
 Transmit commits to remote repository
 ====================================
 
 ```
-git transmit
+git push
 ```
 
 Fetch commits from remote repository
 ===================================
 
 ```
-git download
+git pull
 ```
