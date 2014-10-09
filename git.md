@@ -41,25 +41,25 @@ git add my_file
 This includes the changes to that file in a list of changes
 currently scheduled to be included in the next work chunk.
 
-Include all scheduled changes into a work chunk
+Include all scheduled changes into a commit
 ===============================================
 
 ```
-git chunk -m "Journal entry"
+git commit -m "Journal entry"
 ```
 
-Store all scheduled changes in a new chunk
+Store all scheduled changes in a new commit
 ==========================================
 
 ```
 git include --uptodate
 ```
 
-Include all changes *and* chunk them
+Add all changes *and* commit them
 ====================================
 
 ```
-git chunk -am "Journal entry"
+git commit -a -m "Journal entry"
 ```
 
 View list of recent chunks
@@ -76,7 +76,7 @@ Transmit chunks to remote chunkstore
 git transmit
 ```
 
-Fetch chunks from remote chunkstore
+Fetch commits from remote chunkstore
 ===================================
 
 ```
